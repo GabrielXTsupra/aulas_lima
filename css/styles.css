@@ -1,0 +1,38 @@
+
+        p{
+            color: rgb(154, 5, 195);
+        }
+           paragraf0{
+
+        background-color: chartreuse; 
+        /*margin: 10px; -aplica em todas as margens*/
+        /*margin: 10px 20px 20px 40px; -aplica margem em todas as direçoes*/
+        margin: 10px;   
+        }
+        
+         imagem{
+            width: 150px;
+            height: 100px;
+
+         }
+         body{
+            background-color: rgb(255, 0, 0);
+         }
+         table{
+
+            border-color: rgb(255, 0, 242);
+            width: 100%;
+         }
+         .cabecalho, .celular{
+            border: 2px solid #ddd;
+            padding: 5px;
+            text-align: left;
+            color: black;
+         }
+         .cabecalho2{
+            background-color: #52b7f1;
+         }
+         .timefoda{
+            background-color: rgb(0, 166, 255);
+         }
+    
