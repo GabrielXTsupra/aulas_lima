@@ -35,4 +35,74 @@
          .timefoda{
             background-color: rgb(0, 166, 255);
          }
-    
+
+         .formulario{
+            background-color: blue;
+
+         }
+
+         .input-nome{
+            border: none;
+            border-redius: 5px;
+            margin-left: 50px;
+            opacity: 70%;
+         }
+
+         .botao{
+            background-color: aqua;
+            border: none;
+            border-radius: 5px;
+            padding: 6px;
+            front-size medium;
+            text-shadow: 11px 1px 4px rgb(rgba(255, 0, 230, 0.588)
+         }
+
+         .checar{
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            cursor: pointer;
+            appearance: none;
+            background-color: azure;
+            border: 2px; solid #4caf50;
+         
+         }
+
+         .checar:checked{
+            background-color: lime;
+
+         }
+
+         .email{
+            width: 300px;
+            padding: 5px 5px;
+            margin-left: 5px;
+            border: 2px solid white;
+         }
+
+         .selecao{
+            appearance: none;
+            width: 300px;
+            padding: 4px;
+            front-sinze 16px;
+            color:dimgray;
+            background-color: azure;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgb(0, 0, 0);
+         }
+
+         .radio{
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #d3421d;
+            border-radius: 50%;
+            cursor: pointer;
+         }
+
+         .radio:checked{
+            
+         }
+
