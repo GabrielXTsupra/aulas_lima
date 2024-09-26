@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/estilo_flexbox.css">
 </head>
+
 <body>
     <h1>trabalhando com Div</h1>
     <div class="div1">
@@ -25,17 +27,143 @@
         <p>Londres tem 13 milhões de Habitantes</p>
     </div>
     <h1>trabalhando com Flexbox</h1>
-   <p>Utilizamos flaxbox para posicionar os elementos de uma linha ou coluna  
-    de forma dinâmica
-   </p>
-   <p>Por padrão, os elementos são exibidos em bloco (block)</p>
-   <section class="container">
+    <p>Utilizamos flaxbox para posicionar os elementos de uma linha ou coluna
+        de forma dinâmica
+    </p>
+    <p>Por padrão, os elementos são exibidos em bloco (block)</p>
+    <section class="container">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
         <div class="item">Item 4</div>
+    </section>
 
+    <p>flex com mais elementos, preenchendo a largura da tela</p>
+    <section class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </section>
+
+    <p>flex direction - alterando a direção do elemento</p>
+    
+    <!-- <section class="flex">
+        <div class="div-coluna">
+            <div class="item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7VS-gDr50mJmNNmX8KYeqzAWfxdfC0_yDpw&s"
+                    alt=""></div>
+
+            <div class="item"><img
+                    src="https://www.jornaldotocantins.com.br/image/policy:1.1194198:1695022954/image.jpg" alt=""></div>
+            <div class="item"><img
+                    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/10/messi-bola-de-ouro-2023-e1698702151659.jpg?w=1200&h=1200&crop=1"
+                    alt=""></div>
+            <div class="item"><img src="https://images03.brasildefato.com.br/554724c5bea7e5af7c012c9f2ac33edd.webp"
+                    alt=""></div>
+    </section> -->
+
+    <p>flex warp - faz a quebra do elemeento
+        quando nao ha mais espaço na tela</p>
+
+    <section>
+        <img class="secao-imagem"
+            src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+        <img class="secao-imagem"
+            src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+        <img class="secao-imagem"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+        <img class="secao-imagem"
+            src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+    </section>
+
+    <p>justify - content - alinha os itens flex no
+        continuar de acordo com a direcao</p>
+
+    <section class="alinhar-esquerda">
+        <img class="secao-imagem"
+            src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+        <img class="secao-imagem"
+            src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+        <img class="secao-imagem"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+        <img class="secao-imagem"
+            src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+    </section>
+
+    <section class="alinhar-centro">
+        <img class="secao-imagem"
+            src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+        <img class="secao-imagem"
+            src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+        <img class="secao-imagem"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+        <img class="secao-imagem"
+            src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+    </section>
+
+
+    <section class="alinhar-direita">
+        <img class="secao-imagem"
+            src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+        <img class="secao-imagem"
+            src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+        <img class="secao-imagem"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+        <img class="secao-imagem"
+            src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+    </section>
+
+    <p>alinhar os elementos nos 
+    cantos e ajusta ao redor</p>
+    
+  
+    <section>
+        <img class="alinhar-centro"
+            src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+        <img class="secao-imagem"
+            src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+        <img class="secao-imagem"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+        <img class="secao-imagem"
+            src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+    </section>
 
     
+    <p>alinhar usando coluna</p>
+        
+      
+        <section>
+            <img class="alinhar-coluna"
+                src="https://clickpetroleoegas.com.br/wp-content/uploads/2024/06/wallpaperflare.jpg.webp">
+            <img class="secao-imagem"
+                src="https://gazetaburitis.com.br/images/noticias/1044/630cfa74b5b5bd71a366f0fdade65074.jpg">
+            <img class="secao-imagem"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSc6c-fmLfx_nyqt19UHjKv4XCVuXFH4VSBJtTPIOYgtIBV7q95ftOJj0P6LzC392YwgfP3zBGIXNt5-m8ILRNpKyL0tLAVZy7VBGXptGt0pU7Rh_doowoXy3e1lYmT3A_KP6olndfsbfw/s800/gol+quadrado+rebaixado+jj8.jpg">
+            <img class="secao-imagem"
+                src="https://www.autoo.com.br/fotos/2024/5/1280_960/fiat-mille-fire-1_17052024_78677_1280_960.jpg">
+        </section>
+
+        
+        <section class="alinha-itens-centro">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </section>
+    
+
+
+
+
+
+
+
 </body>
+
 </html>

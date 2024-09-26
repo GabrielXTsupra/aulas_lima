@@ -9,15 +9,99 @@
 }
 
 .container{
-    border: 2px solid #000
-    max-width: 400px
-    margin: 0 auto
+    border: 2px solid #000;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .item{
     background: #003cff;
     margin: 5px;
     text-align: center;
-    color:azure
+    color:azure;
   
 }
+
+.flex{
+    display: flex;  
+}
+
+.flex > div >img{
+    height: 50px;
+    width: 50px;
+}
+
+.div-coluna{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    gap: 10px;
+}
+
+.secao-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+ }
+
+ .alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+
+
+ .alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+ }
+ .alinhar-entrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+ }
+
+ .alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+
+ .alinhar-coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+
+ }
+
+
+ .alinhar-itens-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(22, 255, 1);
+
+ }
+
+

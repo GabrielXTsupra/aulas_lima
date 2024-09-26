@@ -103,6 +103,7 @@
          }
 
          .radio:checked{
-            
+            display: flex;
          }
+
 
