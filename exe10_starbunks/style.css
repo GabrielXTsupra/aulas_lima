@@ -1,0 +1,38 @@
+.logo2{
+    color: #000000;
+    font-family: Teko;
+    font-size: 2rem;
+}
+
+.cafe {
+    background-color: rgb(236, 236, 236);
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}   
+
+.menu2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.imagem {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: flex-start;   
+}
+
+.imagem2{
+    margin: auto;
+    width: 100% ;   
+   }
+
+.preto{
+    display: flex;
+    flex-direction: row;
+    height: ;
+}
