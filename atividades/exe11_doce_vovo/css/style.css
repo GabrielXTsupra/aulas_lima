@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    width: 70px;
+    object-fit: cover;
+}
+
+
+
+.sao-paulo{
+
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
